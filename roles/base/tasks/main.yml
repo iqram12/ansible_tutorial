@@ -1,0 +1,8 @@
+# added the ssh key for that user simone
+# task book!
+  - name: add ssh key for simone
+    tags: always
+    authorized_key:
+      user: simone
+      key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDVWW8MvCqFILl8XuxXT9Hh+Sn0dNKEH8ADr+/Bu4pGp ansible"
+
