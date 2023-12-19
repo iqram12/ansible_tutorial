@@ -6,3 +6,6 @@
 
 [file_servers]
 10.0.2.15
+
+[workstations]
+10.0.2.15
